@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media(max-width:767px){
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	background-color: #333;
+	}
+	.option-box{
+		margin-top: 80px;
+	}
+	#myslide{
+		display: none
+	}
+	
+	#fountainTextG{	
+		margin: auto
+		
+}
+	#fountainTextG .fountainTextG{
+		font-size: 100px;
+		
+	}
+	#carousel_testimionials .carousel-indicators {
+		display: none
+	}
+	.footer .third img{
+	margin-left: 10px;
+	margin-bottom: 30px
+}
+
+}
+@media(max-width:1024px){
+	#myslide .carousel-inner{
+		margin-top: 50px;
+		
+	}
+	#myslide .carousel-caption{
+		padding-top: 20px;
+		padding-bottom: 20px
+	}
+	#myslide .carousel-indicators{
+		margin-bottom: 5px
+	}
+		#myslide .carousel-inner p{
+		font-size: 18px
+	}
+	#myslide .carousel-inner h1{
+		font-size: 20px
+	}
+	#fountainTextG{
+	width:540px;
+	margin:auto;
+	margin-top: 550px
+}
+ #carousel_testimionials .carousel-indicators {
+		margin-top: 20px
+	}
+	.top{
+		display: none;
+	}
+}
+@media(max-width:768px){
+	#myslide .carousel-inner{
+		margin-top: 50px;
+	}
+	#myslide .carousel-caption{
+		padding-top: 15px;
+		padding-bottom: 15px
+	}
+	#myslide .carousel-inner h1{
+		font-size: 18px
+	}
+	#myslide .carousel-inner p{
+		font-size: 13px;
+		line-height: 15px
+	}
+	#myslide .carousel-indicators{
+		margin-bottom: 5px
+	}
+		#fountainTextG{
+	width:540px;
+	margin:auto;
+	margin-bottom: 650px
+}
+	 #carousel_testimionials .carousel-indicators {
+		margin-top: 60px
+	}
+	.top{
+		display: none;
+		
+	}
+	
+}

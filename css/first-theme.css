@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-brand span ,.glyphicon-ok , .testimionials span ,.about span,.footer h3,.personal h2{
+	color: #BD0003
+}
+
+.dropdown-menu {
+	border-top:2px solid #BD0003;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus ,.dropdown-menu li a:hover ,.top{
+
+	background: #BD0003
+}
+.color-option{
+	border:2px solid #BD0003;
+}
+.option-box i{
+	
+color: #BD0003
+
+}
+.carousel-indicators li{
+	border:1px solid #CCC;
+	
+}
+.carousel-indicators .active{
+	background-color:#BD0003;
+	
+}
+.testimionials li img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 100px;
+border: 2px solid #E81D20;	
+}
+#myslide .carousel-indicators{
+		margin-bottom: 5px
+	}
+@media(max-width:767px){
+.dropdown-menu li {
+	color: aliceblue;
+	padding: 6px 20px;
+	-webkit-transition:padding .5s ease;
+	-moz-transition:padding .5s ease;
+	-o-transition:padding .5s ease;
+	transition:padding .5s ease;
+
+}
+	.dropdown-menu li:hover{
+	background: #BD0003;
+	color: aliceblue;
+	padding-left: 30px;
+	
+}
+	.navbar-inverse .navbar-nav .open .dropdown-menu .divider{
+		background-color: aliceblue
+	}
+	
+	.sucsribe .form-control{
+		margin: auto
+	}
+	
+}

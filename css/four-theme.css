@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-brand span ,.glyphicon-ok , .testimionials span ,.about span, .footer h3,.personal h2{
+	color:#02E3FF
+}
+.dropdown-menu {
+	border-top:2px solid #02E3FF;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus ,.dropdown-menu li a:hover ,.carousel-indicators .active ,.top{
+	background: #02E3FF;
+}
+.color-option{
+	border:2px solid #02E3FF
+}
+.option-box i{
+ color:#02E3FF
+
+}
+.testimionials li img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 100px;
+border: 2px solid #02E3FF;	
+}
+
+
+@media(max-width:767px){
+.dropdown-menu li {
+	color: aliceblue;
+	padding: 6px 20px;
+	-webkit-transition:padding .5s ease;
+	-moz-transition:padding .5s ease;
+	-o-transition:padding .5s ease;
+	transition:padding .5s ease;
+
+}
+	.dropdown-menu li:hover{
+	background:#02E3FF;
+	color: aliceblue;
+	padding-left: 30px;
+	
+}
+	.navbar-inverse .navbar-nav .open .dropdown-menu .divider{
+		background-color: aliceblue
+	}
+	
+	.sucsribe .form-control{
+		margin: auto
+	}
+}

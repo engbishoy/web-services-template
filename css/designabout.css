@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	overflow: auto;
+}
+.breadcrumb_holder{
+	margin-top: 50px;
+	background: #EEE;
+	height: 35px
+}
+.breadcrumb{
+	background: none
+}
+.about_us {
+	text-align: center;
+}
+.about_us h1{
+font-weight: 800;
+	letter-spacing: -1px;
+	margin-bottom: 40px
+}
+.about_us .lead{
+	width:100%;
+	font-size: 15px;
+	color:#515151;
+	margin: auto
+}
+.about_us img{
+	margin-top: 20px;
+	width: 75%;
+	height: 50%;
+	margin: auto
+}
+.about_us p{
+color: #525252;
+	line-height: 25px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin-bottom: 10px
+}
+.about_us h3,i{
+	font-weight: bold;
+	margin-top: 20px
+}
+.cv{
+	margin-top: 80px
+}
+.cv img{
+	display: none
+}
+.personal{
+	text-align: left;
+	padding-top: 30px
+}
+.personal p{
+	line-height: 25px;
+	font-size: 15px
+}
